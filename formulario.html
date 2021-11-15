@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <section class="registry-section">
+
+        <div class="form-container">
+
+            <div class="form-header">
+                <h2>New User</h2>
+            </div>
+
+            <form id="user-form" class="form">
+
+                <div class="form-box">
+                    <label for="nickName">Name</label>
+                    <input type="text" name="nickName" id="nickName" placeholder="Escribe tu nombre">
+                    <small class="error-text">Introduce un nombre</small>
+                </div>
+                
+                <div class="form-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="info@servidor.com">
+                    <small class="error-text">Introduce un email valido</small>
+                </div>
+
+                <div class="form-box">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Escribe tu contraseña">
+                    <small class="error-text">Introduce una contraseña de más de 6 caracteres
+                    </small>
+                </div>
+
+                <button type="submit" id="submit-btn" disabled>Enviar</button>
+
+            </form>
+
+        </div>
+        
+    </section>
+    
+    <script defer src="./assets/script/validacion.js"></script>
+</body>
+</html>
