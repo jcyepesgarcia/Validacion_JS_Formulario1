@@ -97,6 +97,7 @@ body{
     color: lightgrey;
 }
 
+/* Clases que identifican el error de validación */
 .form-box.form-error input{
     border-bottom: 2px solid red;
 }
@@ -104,7 +105,9 @@ body{
 .form-box.form-error .error-text{
     visibility:visible;
 }
+/*----------------------------------*/
 
+/* Clase que identifica la correcta validación */
 .form-box.form-success input{
     border-bottom: 2px solid #1e9ba3;
 }
